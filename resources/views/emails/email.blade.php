@@ -9,7 +9,7 @@
 </head>
 <style>
     body{
-        background:linear-gradient(RGBA(224, 231, 241,.9),RGBA(167, 178, 198,.8)),url({{asset('storage/img/mail.png')}});
+        background:linear-gradient(RGBA(224, 231, 241,.9),RGBA(167, 178, 198,.8)),url({{asset('img/mail.png')}});
         background-repeat: no-repeat;
         background-size: contain;
         min-height: 100vh;

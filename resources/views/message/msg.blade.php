@@ -15,7 +15,7 @@
         }
     }
 </style>
-<body style="padding:0;background-image:linear-gradient(rgba(223,219,229,0.5),rgba(100,53,132,.5)),url({{asset('storage/img/undraw_newsletter_vovu.png')}});background-repeat: no-repeat;background-size: contain; min-height: 100vh">
+<body style="padding:0;background-image:linear-gradient(rgba(223,219,229,0.5),rgba(100,53,132,.5)),url({{asset('img/undraw_newsletter_vovu.png')}});background-repeat: no-repeat;background-size: contain; min-height: 100vh">
 @if(count($msgTemporary) > 0)
     @foreach($msgTemporary as $msg)
         <main class="container pt-4" >
